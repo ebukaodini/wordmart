@@ -1,0 +1,55 @@
+@import "../scss/theme";
+
+.__hero {
+  height: calc(100vh - 100px);
+
+  .__hero_title h1 {
+    font-size: 70px;
+  }
+
+  .__hero_content {
+    height: 400px;
+    background-image: url("../assets/hero.svg");
+    background-repeat: no-repeat;
+
+    .__hero_content_text {
+      width: 30%;
+      margin-left: 100px;
+    }
+  }
+}
+
+.__services {
+  div.__service_container {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      align-self: center;
+    }
+  }
+}
+
+.__blog_articles {
+  height: 500px;
+}
+
+.__books {
+  height: 500px;
+
+  .__books_container {
+    width: 60%;
+  }
+
+  div.__book_thumbnail {
+    height: 200px;
+    width: 150px;
+    background-color: grey;
+  }
+}
+
+.__clients {
+  height: 500px;
+}
